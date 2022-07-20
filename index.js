@@ -33,11 +33,14 @@ app.use('api/wheelprize', WheelPrizes )
 //     })
 // }
 
-const path = require("path")
-app.use(express.static(path.join(__dirname, "client", "build")))
+/* const path = require("path")
+app.use(express.static(path.join(__dirname, "../spinfreedombitcoinpay-client", "build")))
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "client", "build", "index.html"));
-});
+    res.sendFile(path.join(__dirname, "../spinfreedombitcoinpay-client", "build", "index.html"));
+}); */
+app.get('/',(req,res)=>{
+    res.send("it's working");
+})
 
 
 const port = process.env.PORT || 8080;
