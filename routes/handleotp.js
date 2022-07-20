@@ -29,13 +29,13 @@ module.exports = async function HandleOtp(req, res) {
         auth: {
 
           user: 'bitcoinspinningwheel@gmail.com', // generated ethereal user
-          pass: 'bitcoin@1234' 
+          pass: 'xhsgdkgczohfphpe' 
         },
         
     });
 console.log(req.body.email);
     const options = {
-        from: "mkjam.007@gmail.com",
+        from: "bitcoinspinningwheel@gmail.com",
         // to: req.body.email,
         to: `${req.body.email}`,
         subject: "OTP For Signing-Up",
