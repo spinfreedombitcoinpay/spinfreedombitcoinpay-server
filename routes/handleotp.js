@@ -29,7 +29,7 @@ module.exports = async function HandleOtp(req, res) {
         auth: {
 
           user: 'bitcoinspinningwheel@gmail.com', // generated ethereal user
-          pass: 'xhsgdkgczohfphpe' 
+          pass: 'ausxweembsfxwwvg' 
         },
         
     });
